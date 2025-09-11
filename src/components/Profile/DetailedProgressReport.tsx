@@ -11,7 +11,6 @@ export function DetailedProgressReport() {
   const [loading, setLoading] = useState(true);
   const [reportType, setReportType] = useState<'weekly' | 'monthly' | 'chapter'>('weekly');
   const [error, setError] = useState<string | null>(null);
-  const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
     if (userProfile) {
