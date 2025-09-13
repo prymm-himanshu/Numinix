@@ -1,6 +1,6 @@
 import React from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
-import { Home, Calculator, Trophy, Gamepad2, Map, Timer, Target, User, Sparkles } from 'lucide-react';
+import { Home, Calculator, Trophy, Gamepad2, Map, Timer, Target, User, Sparkles, Brain } from 'lucide-react';
 
 export function BottomNavigation() {
   const navigate = useNavigate();
